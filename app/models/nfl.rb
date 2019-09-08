@@ -1,0 +1,2 @@
+class Nfl < ApplicationRecord
+end
