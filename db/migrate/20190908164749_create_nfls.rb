@@ -1,7 +1,7 @@
 class CreateNfls < ActiveRecord::Migration[5.2]
   def change
-    create_table :nfls do |t|
-      t.string :team
+    create_table :teams do |t|
+      t.string :name
       t.string :reason
       t.timestamps
     end

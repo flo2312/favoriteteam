@@ -1,0 +1,8 @@
+<h1>Enter Your Favorite Team</h1>
+
+<%= simple_form_for @team do |f| %>
+  <%= f.input :name %>
+  <%= f.input :reason %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>

@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2019_09_08_164749) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "nfls", force: :cascade do |t|
-    t.string "team"
+  create_table "teams", force: :cascade do |t|
+    t.string "name"
     t.string "reason"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

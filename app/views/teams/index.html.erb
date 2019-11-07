@@ -1,0 +1,16 @@
+<br />
+<div class='row text-center'>
+  <div class='col-12 col-sm'>
+    <h1>What is your favorite NFL team and why?</h1>
+    <br />
+    <% @teams.each do |team| %>
+      <h3><%= team.name %>-<%= team.reason %></h3>
+    <% end %>
+  </div>
+</div>
+
+<div class='row text-right'>
+  <div class='col-12 col-sm'>
+    <%= link_to "Add a Team", new_team_path, class: 'btn btn-danger' %>
+  </div>
+</div>

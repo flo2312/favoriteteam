@@ -1,2 +1,0 @@
-class Nfl < ApplicationRecord
-end
